@@ -3,6 +3,9 @@ cupos = [12, 15, 8, 10]
 inscripciones = []
 
 
+# Esta funcion pide el nombre o el apellido y no deja seguir si esta vacio.
+# Si el usuario solo presiona Enter, avisa del error y se vuelve a llamar a si
+# misma para preguntar otra vez, hasta que escriba algo.
 def obtener_nombre(etiqueta):
     valor = input("Ingrese su " + etiqueta + ": ").strip()
     if valor == "":
