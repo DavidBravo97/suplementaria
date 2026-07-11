@@ -1,5 +1,5 @@
 talleres = ["Pintura", "Danza Moderna", "Teatro", "Guitarra"]
-cupos = [5, 4, 3, 6]
+cupos = [12, 15, 8, 10]
 inscripciones = []
 
 
